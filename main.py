@@ -9,9 +9,9 @@ else:
     print(f'Ok, {player_2}  will play "x"')
     symbol_2 = 'x'
 
-dictionary_of_gamers = {symbol_1: player_1, symbol_2: player_2}  #Создание пустого словаря
+dictionary_of_gamers = {symbol_1: player_1, symbol_2: player_2}  #Создание словаря
 
-winner_1 = dictionary_of_gamers['o']
+winner_1 = dictionary_of_gamers['o'] #Присвоение победителя в зависимости от крестика или нолика
 winner_2 = dictionary_of_gamers['x']
 
 
