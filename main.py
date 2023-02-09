@@ -1,5 +1,5 @@
 player_1 = input('Input Your name: ')   #Ввод имени первого игрока
-player_2 = input('Input Your name: ')   #Ввод имени второго игрока
+player_2 = input('Input Your name: ')   #Ввод имени второго игрока обязательно
 
 symbol_1 = str(input('Choose "x" or "o": ')).lower()    #Выбор символа игры - крестик или нолик
 if symbol_1 == 'x':  #Автоматическое присвоение другого символа второму игроку
